@@ -5,7 +5,7 @@ const config = require('./config');
 // The Firebase Admin SDK to access the Firebase Realtime Database.
 // const admin = require("firebase-admin");
 
-const NOTIFY_INTERVAL = 1 * 60 * 1000; //15 mins
+const NOTIFY_INTERVAL = 15 * 60 * 1000; //15 mins
 
 exports.notifyWaterlevel = functions.database
   .ref("/waterlevel/measurement")
