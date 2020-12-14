@@ -1,0 +1,6 @@
+module.exports = {
+  iftt: {
+    event: 'water_level',
+    key: 'KEY',
+  }
+}
